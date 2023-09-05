@@ -16,22 +16,6 @@ class _NewsReaderState extends State<NewsReader> {
   String date = DateFormat('yyyy-MM-d').format(DateTime.now());
   String time = DateFormat('HH:mm:ss').format(DateTime.now());
 
-  List<String> descriptions = [
-    "Jeremy Siegel says bitcoin's rush higher will fizzle out once people trust banks again",
-    "Bitcoin notches 9-month high after inflation data bolsters speculation of smaller rate hike",
-    "Bitcoin soars to a 9-month high after Credit Suisse takeover fails to calm banking fears",
-    "Bitcoin plunges under \$20,000 to its lowest point in 2 months as Silvergate blow-up and bank fears rattle risk assets"
-  ];
-
-  List<String> images = [
-    'images/img1.webp',
-    'images/img2.webp',
-    'images/img3.webp',
-    'images/img4.webp'
-  ];
-
-  List<String> dates = ['2023-03-22', '2023-03-14', '2023-03-20', '2023-03-10'];
-  List<String> times = ['13:39:59', '15:32:23', '13:46:19', '16:22:49'];
 
   // List<Model_class> news=[
   //   Model_class(
